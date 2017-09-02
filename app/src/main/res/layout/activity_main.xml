@@ -37,6 +37,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintVertical_bias="0.0">
 
+        <ImageView
+            android:id="@+id/dogo"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/dogo"
+            />
+
+        <Button
+            android:id="@+id/mainMenuToGroupsActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groups"
+            android:textSize="30sp" />
+
         <Button
             android:id="@+id/myfirstButton"
             android:layout_width="wrap_content"

@@ -1,5 +1,6 @@
 package com.example.adam.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,12 +21,23 @@ public class MainActivity extends AppCompatActivity {
                 myfirsttextview.setText(button.getText());
             }
         });
+
         final Button button2 = (Button) findViewById(R.id.mySecondButton);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 myfirsttextview.setText(button2.getText());
             }
         });
+
+
+        final Button buttonMainMenuToGroups = (Button) findViewById(R.id.mainMenuToGroupsActivity);
+        buttonMainMenuToGroups.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), !!!!!!!!!!!!!!!!.class)); <-- adam, here put your new activity!
+            }
+        });
+
+
 
     }
 
