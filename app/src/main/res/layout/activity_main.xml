@@ -45,10 +45,10 @@
             />
 
         <Button
-            android:id="@+id/mainMenuToGroupsActivity"
+            android:id="@+id/mainMenuToChatActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Groups"
+            android:text="Chat"
             android:textSize="30sp" />
 
         <Button
@@ -62,7 +62,7 @@
             android:id="@+id/myFirstTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello poop World"
+            android:text="Hello World"
             android:textSize="30sp" />
 
         <Button
