@@ -49,13 +49,9 @@ public class MainActivity extends AppCompatActivity {
                                startActivity(new Intent(getApplicationContext(), Chat.class));
 
             }
-final class SectionsPagerAdapter extends FragmentPagerAdapter {public SectionsPagerAdapter(FragmentManager fm) {
-
-
-            super(fm);
-            }@Override
+        final class SectionsPagerAdapter extends FragmentPagerAdapter {public SectionsPagerAdapter(FragmentManager fm) {super(fm);}@Override
             public Fragment getItem(int position) {
-                if (position == 0) {
+                if (position == 1) {
                     return new Chats();
                 } else
                     return Chat.PlaceholderFragment.newInstance(position + 1);

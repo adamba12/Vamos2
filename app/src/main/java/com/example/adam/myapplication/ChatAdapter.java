@@ -18,8 +18,6 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import static android.R.id.list;
-
 public class ChatAdapter extends BaseAdapter {
 
     private static LayoutInflater inflater = null;

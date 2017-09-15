@@ -118,7 +118,7 @@ public class Chat extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_chat, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            textView.setText(getString(R.string.app_name, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
         }
     }
@@ -152,7 +152,7 @@ public class Chat extends AppCompatActivity {
                 case 0:
                     return "Contacts";
                 case 1:
-                    return "Groups";
+                    return "Chats";
                 case 2:
                     return "Favourites";
             }
